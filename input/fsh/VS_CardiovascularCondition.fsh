@@ -21,6 +21,7 @@ Id: mcard-congenital-disorder-vs
 Title: "Congenital Heart Disorder Value Set"
 Description:    "Types of congenital heart disorders, coded in SNOMED CT or ICD-10-CM."
 * insert SNOMEDCopyrightForVS
+* include codes from system SCT where concept is-a #13213009 "Congenital heart disease (disorder)"
 
 ValueSet:  StructuralHeartDisorderVS
 Id: mcard-structural-disorder-vs
